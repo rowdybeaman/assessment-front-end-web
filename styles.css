@@ -36,3 +36,27 @@ input {
 img {
 	max-width: 300px;
 }
+
+.profile-pic {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.favorite-buttons {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.favorite-buttons:hover {
+    background-color: orange; 
+}
+/* i like when button change color on hover so i put this in as well */
